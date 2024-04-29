@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+   .btn {
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btn.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Forever Destinations</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <link rel="stylesheet" href="card.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i><a href="mailto:info@foreverdestinations.co.za">Click to Send Email</a></p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i><a href="tel:078 102 3490">078 102 3490</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+       <!-- <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">-->
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="logo.jpg" alt="Logo" class="mr-2" width="100">
+                    <div class="d-flex flex-column">
+                        <h1 class="m-0 text-primary" style="font-size: 20pt;"><span class="text-dark">Forever</span></h1>
+                        <h1 class="m-0 text-primary" style="font-size: 20pt;"><span class="text-dark">Destinations</span></h1>
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                       
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Destinations</a>
+                           <div class="dropdown-menu border-0 rounded-0 m-0">
+                                <a href="southafrica.html" class="dropdown-item">South Africa</a>
+                                <a href="capetown.html" class="dropdown-item">Cape Town</a>
+                                <a href="winelands.html" class="dropdown-item">Winelands</a>
+                                <a href="mozambique.html" class="dropdown-item">Mozambique</a>
+                                <a href="botswana.html" class="dropdown-item">Botswana</a>  
+                                <a href="namibia.html" class="dropdown-item">Namibia</a>
+                                <a href="rwanada.html" class="dropdown-item">Rwanda</a>
+                                <a href="zambia.html" class="dropdown-item">Zambia</a>
+                                <a href="victoriafalls.html" class="dropdown-item">Victoria Falls</a>
+                                <a href="zanzibar.html" class="dropdown-item">Zanzibar</a>
+                                <a href="mauritius.html" class="dropdown-item">Mauritius</a>
+                                <a href="zimbabwe.html" class="dropdown-item">Zimbabwe</a>
+                            </div>
+                        </div>
+                        <a href="service.html" class="nav-item nav-link">T's and C's</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        
+    </div>
+    <!-- Navbar End -->
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="back.jpg" style="height: 60vh;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">View Our Terms and Conditions here at</h4>
+                            <h1 class="display-3 text-white mb-md-4">Forever Destinations</h1>
+                            <a href="#destinations" class="btn btn-primary py-md-3 px-md-5 mt-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+         
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 align="center">Our Terms and Conditions</h3>
+    
+    <br>
+  <h3 style="padding-left: 20px;">Qoutation</h3>
+  <ul>
+    <li>Quotations are only valid for the period as reflected on the quotation.</li>
+	<li>All quotations are subject to the availability of all services at the time of making a reservation.</li>
+	<li>The price quoted is subject to change in the event of any unforeseen increases in fuel costs including currency fluctuations (relevant to aircraft or transfer services) and/or Government levies/taxes.</li>
+
+  </ul>
+
+  <br>
+  <br>
+  <h3 style="padding-left: 20px;">Payments</h3>
+
+  <ul>
+  <li>	If quoted in foreign currency, the rate of exchange (ROE) can only be determined on date of payment of invoice. Please note that we will provide you with the rate of exchange on the <b>date of payment.</b></li>
+
+  <li>In order to confirm your booking, you will need to make payment to us of a 50% deposit, except that: For air travel of which 100% of the cost must be paid up front, as air tickets need to be issued immediately.</li>
+  <li>	All of the deposits paid are <b>non-refundable.</b></li>
+  <li>	The outstanding balance is due between 30 and 60 days prior to travel, depending on the property booked.</li>
+  <li>	If a booking is made less than 60 days prior to travel, the full 100% cost of the booking (“<b>total booking price</b>”) must be paid up front.</li>
+  	<li>Failure to make the required deposit(s) means that we will be unable to confirm the booking for you.</li>
+<li>Note that any booking made with any Associated Properties is subject to their own payment terms and booking terms and conditions.</li>
+  	<li>The booking terms and conditions for Associated properties will vary from property to property. Should you require the booking terms for a specific property, please request this from your Travel Designer</li>
+  
+</ul>
+ 
+<h3 style="padding-left: 20px;">Flight Rules</h3>
+<p style="font-weight: bold;margin-left: 20px;"> Refer to all flights booked through Forever Destinations:</p>
+<ul>
+<li>	All airlines require full first names and surnames as per the passengers’ passport to make a reservation.</li>
+<li>	All airlines DO NOT allow name changes – after the reservation has been made, nor after the ticket has been issued.</li>
+<li>	Fares and taxes on flights are quoted per person and at current rates. These are subject to airline increase or rate of exchange fluctuations at any time prior to date of issue.</li>
+<li>	Airfares are subject to seat availability and rules, including discounted fares (if applicable), and pertaining to advance purchases, cancellation and amendment penalties.</li>
+<li>	NOTE: In line with airline and government regulations around the world, we are required to supply the following information before air tickets may be issued for reservations made on scheduled flights (commercial air) – passport name, passport number, date of issue, date of expiry, country of issue, date of birth, gender and nationality.</li>
+<li>	Cancellation fees will be charged if applying for a refund on an issued ticket. </li>
+<li>	Forever Destinations cannot be held responsible for any re-routings, delays or cancellations imposed by the airlines. Guests should carry adequate travel insurance to cover such eventualities. </li>
+<li>	All airline reservations are subject to the terms and conditions of the specified airline.</li>
+</ul>
+<br>
+<br>
+<h3 style="padding-left: 20px;">Baggage Rules</h3>
+<ul>
+<li>	You must ensure that you meet the baggage regulations of the airlines and charter companies that you will be using. If you do not adhere to these, the transfer of your baggage may be delayed and/or transferred at extra cost to you.</li>
+<li>	In particular, light aircraft flights have baggage regulations which include, but are not limited to, weight, structure and shape.</li>
+</ul>
+<br>
+<br>
+<h3 style="padding-left: 20px;">Passports and Visas</h3>
+<ul>
+<li>	You must ensure that you meet the necessary travel documentation, permit and/or visa regulations of the countries you intend entering, transiting or visiting.</li>
+    <li>	Your passport must be valid for the prescribed period contained in the applicable regulations of the countries you will be entering, transiting and/or visiting. A minimum of 12 months’ validity after your date of travel is recommended.</li>
+        <li>	If you are travelling alone with minor children, you will need to provide a letter of consent from the absent parent(s) that the children are allowed to travel with you. Please also chat to you Travel Designer for details of the full requirements when travelling with minor children.</li>
+            <li>	It is the traveller’s responsibility to check that all travel documents (passports and visas), health and vaccination status are in order prior to travel to ensure no delays or cancellation. If you are unsure of any travel requirements, please check with your Travel Designer.</li>
+                <li>	Forever Destinations will not be held responsible for any air tickets issued in the incorrect name if clear copies or passport / ID have not been received.</li>
+
+</ul>
+<br>
+<br>
+
+<h3 style="padding-left: 20px;">Travel Insurance</h3>
+<ul>
+    <li>We strongly recommend that you purchase fully comprehensive travel insurance at the time of making your reservation. You acknowledge that without such travel insurance, you will be responsible for all costs arising from any cancellation, re-routing or rescheduling of your trip or any emergency (medical or other) that may arise during your travels. 
+
+    </li>
+</ul>
+
+
+
+  
+
+
+ 
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">FOREVER <br> Destinations</h1>
+                </a>
+                <p>For all your traveling and bookings for your next holiday, contavt us for the best deals and prices</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Guide</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Destinations</a>
+                    <a class="text-white-50 mb-2" href="tandc.html"><i class="fa fa-angle-right mr-2"></i>Terms and Conditions</a>
+                    <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;"> Our Top Destination</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="southafrica.html"><i class="fa fa-angle-right mr-2"></i>South Africa</a>
+                    <a class="text-white-50 mb-2" href="capetown.html"><i class="fa fa-angle-right mr-2"></i>Cape Town</a>
+                    <a class="text-white-50 mb-2" href="winelands.html"><i class="fa fa-angle-right mr-2"></i>Winelands</a>
+                    <a class="text-white-50 mb-2" href="mozambique.html"><i class="fa fa-angle-right mr-2"></i>Mozambique</a>
+                    <a class="text-white-50 mb-2" href="botswana.html"><i class="fa fa-angle-right mr-2"></i>Botswana</a>
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Click for more</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone-alt mr-2"></i><a href="tel:0781023490">078 102 3490</a></p>
+                <p><i class="fa fa-envelope mr-2"></i><a href="mailto:info@foreverdestinations.co.za">Click to Email</a></p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="index.html">Forever Destinations</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <p class="m-0 text-white-50">Designed by <a href="https://ontrackdevelopment.co.za">OnTrack Development</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+ <!--<script src="sort.js"></script>-->   
+   
+    <script>
+        document.querySelector('a[href="#destination-section"]').addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default anchor behavior
+            document.querySelector('#destination-section').scrollIntoView({
+                behavior: 'smooth' // Smooth scroll behavior
+            });
+        });
+    </script>
+            <script src="location.js"></script>
+            <script src="sort.js"></script>
+</body>
+
+</html>

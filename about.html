@@ -2,8 +2,27 @@
 <html lang="en">
 
 <head>
+    <style>
+        .btn {
+             border: none;
+             outline: none;
+             padding: 10px 20px;
+             cursor: pointer;
+             font-size: 18px;
+         }
+     
+         .btn.active {
+             background-color: #4CAF50;
+             color: white;
+         }
+     
+         .btn:hover {
+             background-color: #ddd;
+         }
+     
+         </style>
     <meta charset="utf-8">
-    <title>TRAVELER - Free Travel Website Template</title>
+    <title>About</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -27,75 +46,86 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                        <p class="text-body px-3">|</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
-                    </div>
+   <!-- Topbar Start -->
+   <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <p><i class="fa fa-envelope mr-2"></i><a href="mailto:info@foreverdestinations.co.za">Click to Send Email</a></p>
+                    <p class="text-body px-3">|</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i><a href="tel:078 102 3490">078 102 3490</a></p>
                 </div>
-                <div class="col-lg-6 text-center text-lg-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="text-primary px-3" href="">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-primary pl-3" href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-primary px-3" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-primary px-3" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-primary px-3" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-primary px-3" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-primary pl-3" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid position-relative nav-bar p-0">
-        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="m-0 text-primary"><span class="text-dark">TRAVEL</span>ER</h1>
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                <a href="destination.html" class="dropdown-item">Destination</a>
-                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
+<!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0">
+   <!-- <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">-->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="logo.jpg" alt="Logo" class="mr-2" width="100">
+                <div class="d-flex flex-column">
+                    <h1 class="m-0 text-primary" style="font-size: 20pt;"><span class="text-dark">Forever</span></h1>
+                    <h1 class="m-0 text-primary" style="font-size: 20pt;"><span class="text-dark">Destinations</span></h1>
                 </div>
-            </nav>
-        </div>
-    </div>
-    <!-- Navbar End -->
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                   
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Destinations</a>
+                       <div class="dropdown-menu border-0 rounded-0 m-0">
+                            <a href="southafrica.html" class="dropdown-item">South Africa</a>
+                            <a href="capetown.html" class="dropdown-item">Cape Town</a>
+                            <a href="winelands.html" class="dropdown-item">Winelands</a>
+                            <a href="mozambique.html" class="dropdown-item">Mozambique</a>
+                            <a href="botswana.html" class="dropdown-item">Botswana</a>  
+                            <a href="namibia.html" class="dropdown-item">Namibia</a>
+                            <a href="rwanada.html" class="dropdown-item">Rwanda</a>
+                            <a href="zambia.html" class="dropdown-item">Zambia</a>
+                            <a href="victoriafalls.html" class="dropdown-item">Victoria Falls</a>
+                            <a href="zanzibar.html" class="dropdown-item">Zanzibar</a>
+                            <a href="mauritius.html" class="dropdown-item">Mauritius</a>
+                            <a href="zimbabwe.html" class="dropdown-item">Zimbabwe</a>
+                        </div>
+                    </div>
+                    <a href="tandc.html" class="nav-item nav-link">T's and C's</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    
+</div>
+<!-- Navbar End -->
 
 
     <!-- Header Start -->
@@ -112,91 +142,22 @@
         </div>
     </div>
     <!-- Header End -->
+<br>
+<br>
+<h1 align="center">About US</h1>
 
+  <p style="margin-left: 25px;margin-right: 25px;">
+Forever Destinations offers the most competitive rates for those looking to explore our beautiful southern & East African regions.  Our offering includes affordable, upmarket Game Lodges, great value Packages as well a wonderful collection of Exclusive-use Villas.
 
-    <!-- Booking Start -->
-    <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
-                <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Destination</option>
-                                        <option value="1">Destination 1</option>
-                                        <option value="2">Destination 1</option>
-                                        <option value="3">Destination 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Booking End -->
+With offices in Johannesburg & Cape Town, our team, which boasts more than a decade of experience, invests the time to get to know our customers and find out what is important to you. With these insights, we craft the perfect getaway at exceptional rates!
 
+We are so confident that our rates are unparalleled in the market that if you can find a better rate, we will match it!
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5">
-            <div class="row">
-                <div class="col-lg-6" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 pt-5 pb-lg-5">
-                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
-                        <div class="row mb-4">
-                            <div class="col-6">
-                                <img class="img-fluid" src="img/about-1.jpg" alt="">
-                            </div>
-                            <div class="col-6">
-                                <img class="img-fluid" src="img/about-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary mt-1">Book Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
+With first-hand experience and extensive destination knowledge, we understand the best attributes and finer details and we are sure to help you make memories that last forever!
+    
+</p>
+<br>
+<br>
 
     <!-- Feature Start -->
     <div class="container-fluid pb-5">
@@ -241,148 +202,20 @@
     <!-- Feature End -->
 
 
-    <!-- Registration Start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-7 mb-5 mb-lg-0">
-                    <div class="mb-4">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
-                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
-                    </div>
-                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
-                    <ul class="list-inline text-white m-0">
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5">
-                    <div class="card border-0">
-                        <div class="card-header bg-primary text-center p-4">
-                            <h1 class="text-white m-0">Sign Up Now</h1>
-                        </div>
-                        <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Select a destination</option>
-                                        <option value="1">destination 1</option>
-                                        <option value="2">destination 1</option>
-                                        <option value="3">destination 1</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Registration End -->
+ 
 
 
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
-                <h1>Our Travel Guides</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">Guide Name</h5>
-                            <p class="m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
 
 
+   
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                    <h1 class="text-primary"><span class="text-white">FOREVER <br> Destinations</h1>
                 </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                <p>For all your traveling and bookings for your next holiday, contavt us for the best deals and prices</p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -392,34 +225,31 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Quick Guide</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Destinations</a>
+                    <a class="text-white-50 mb-2" href="tandc.html"><i class="fa fa-angle-right mr-2"></i>Terms and Conditions</a>
+                    <a class="text-white-50 mb-2" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;"> Our Top Destination</h5>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    <a class="text-white-50 mb-2" href="southafrica.html"><i class="fa fa-angle-right mr-2"></i>South Africa</a>
+                    <a class="text-white-50 mb-2" href="capetown.html"><i class="fa fa-angle-right mr-2"></i>Cape Town</a>
+                    <a class="text-white-50 mb-2" href="winelands.html"><i class="fa fa-angle-right mr-2"></i>Winelands</a>
+                    <a class="text-white-50 mb-2" href="mozambique.html"><i class="fa fa-angle-right mr-2"></i>Mozambique</a>
+                    <a class="text-white-50 mb-2" href="botswana.html"><i class="fa fa-angle-right mr-2"></i>Botswana</a>
+                    <a class="text-white-50 mb-2" href="destination.html"><i class="fa fa-angle-right mr-2"></i>Click for more</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i><a href="tel:0781023490">078 102 3490</a></p>
+                <p><i class="fa fa-envelope mr-2"></i><a href="mailto:info@foreverdestinations.co.za">Click to Email</a></p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
                 <div class="w-100">
                     <div class="input-group">
@@ -435,11 +265,11 @@
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="index.html">Forever Destinations</a>. All Rights Reserved.</a>
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">
-                <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                <p class="m-0 text-white-50">Designed by <a href="https://ontrackdevelopment.co.za">OnTrack Development</a>
                 </p>
             </div>
         </div>
